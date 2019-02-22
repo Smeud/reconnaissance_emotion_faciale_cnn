@@ -1,0 +1,10 @@
+•	Python 3.6.8
+•	Tensorflow 1.12.0
+•	Keras 2.2.4
+•	py_opencv 3.4.1
+•	Numpy 1.15.4
+•	Matplotlib 3.0.2
+•	tqdm 4.29.1
+•	glob 0.6
+•	Anaconda Navigator 1.9.6
+
