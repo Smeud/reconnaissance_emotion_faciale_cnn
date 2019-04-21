@@ -24,9 +24,7 @@ class EmojifierLoader(object):
         images = np.vstack([d['data'] for d in data])
 
         self._n = len(images)
-
         self.images = images.reshape(-1, 48, 48, 1).astype(float) / 255
-
         self.labels = one_hot(np.hstack([d['labels'] for d in data]), 6)
 
         return self
@@ -36,8 +34,6 @@ class EmojifierLoader(object):
         y = self.labels[self._i:self._i+batch_size]
 
         self._i = (self._i + batch_size) % self._n
-
-        # logger.debug('current batch from {} to {}'.format(self._i, self._i+batch_size))
 
         return x, y
 

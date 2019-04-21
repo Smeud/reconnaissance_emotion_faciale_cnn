@@ -1,1 +1,1 @@
-#### Doit contenir les fichiers du modele apres entrainement et test, pret a utiliser. 
+#### tensorflow checkpoints of the model is saved here by the algorithm.
