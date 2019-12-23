@@ -1,6 +1,6 @@
 # 	Reconnaissance_emotion_faciale
 ## 	A partir des visages ce programme reconnait les six emotions de base en les liant chacune a un emoticone.
-###	Nous utilisons deux architectures de cnn differentes, toutes deux inspirees du VGG16. L'une a ete entrainee via tensorflow et l'autre via keras
+###	Nous utilisons deux architectures de cnn differentes. Les deux ont ete entrainees via tensorflow et via keras
  
 ### Preparer un environnement de developpement avec les outils requis
 ### Utiliser les fichiers du dataset pour lancer l'apprentissage de la base en executant le fichier model.py (vous pouvez le modifier comme vous le souhaitez) 
